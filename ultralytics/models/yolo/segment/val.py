@@ -65,8 +65,8 @@ class SegmentationValidator(DetectionValidator):
             "mAP50-95)",
             "Mask(P",
             "R",
-            "mAP50",
-            "mAP50-95)",
+            "DCIE(50)",
+            "DICE(50-95)",
         )
 
     def postprocess(self, preds):
